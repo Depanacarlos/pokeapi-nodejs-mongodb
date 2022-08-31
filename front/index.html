@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto 2</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <form id="pokemon-form" class="pokemon-form" action="">
+            <section class="pokemon-form-title-content">
+                <section class="pokemon-form-title">
+                    <label class="h3" for="pokemon-name-input">Buscar pokemon</label>
+                </section>
+                <section class="pokemon-form-title">
+                    <label class="h3" for="pokemon-name-input">Opcional*</label>
+                </section>
+            </section>
+            <section class="pokemon-form-input-content">
+                <section class="pokemon-form-input">
+                    <input class="input" id="pokemon-name-input" type="text">
+                    <button type="submit">Buscar</button>
+                </section>
+                <section id="pokemon-form-options" class="pokemon-form-input">
+                    <input id="sprites" type="checkbox">
+                    <label class="p" for="">Sprites</label><br>
+                    <input id="evoluciones" type="checkbox">
+                    <label class="p" for="">Evoluciones</label><br>
+                    <input id="ubicacion" type="checkbox">
+                    <label class="p" for="">Ubicación</label><br>
+                </section>
+            </section>
+        </form>
+
+        <section id="pokemon-finder-output">
+
+        </section>
+
+    </main>
+
+    <script src="utils.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
